@@ -1,5 +1,5 @@
 import React from 'react';
-import olgaImage from './images/background_image1.jpg';
+// import olgaImage from './images/background_image1.jpg';
 import eggs from './images/eggs.png';
 import pokemon from './images/pokemon.png';
 import CooperHuwitt from './images/CooperHuwitt.png';
