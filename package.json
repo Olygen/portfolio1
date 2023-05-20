@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prod-build": "npm i && npm run build",
-    "prod-start": "node app.js"
+    "prod-start": "node App.js"
   },
   "eslintConfig": {
     "extends": [
