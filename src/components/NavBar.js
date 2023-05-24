@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-router-dom';
+import Logo from './images/Logo.png';
 import './NavBar.css';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <h1 className="brand">logo</h1>
+      <img src={Logo} className="image" alt="Logo" style={{ width: '60px', height: 'auto' }} />
       <ul className="links-container">
         <li className={`links-item ${activeLink === 'home' ? 'active' : ''}`}>
           <a href="#home" className="link" onClick={() => handleLinkClick('home')}>home</a>
