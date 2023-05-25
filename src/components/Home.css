@@ -79,4 +79,5 @@
 .image {
   width: 30%;
   height: auto;
+  border: solid #e3e3e3;
 }

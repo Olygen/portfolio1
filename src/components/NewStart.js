@@ -4,37 +4,45 @@ import eggs from './images/eggs.png';
 import pokemon from './images/pokemon.png';
 import CooperHuwitt from './images/CooperHuwitt.png';
 import mongooseFlights from './images/flights.png';
+import employees from './images/employees.png';
 import './NewStart.css';
 
 const NewStart = () => {
   const projects = [
     {
-      name: 'First Project',
+      name: 'DOM game',
       image: eggs,
       tags: '#javascript',
       githubLink: 'https://github.com/Olygen/W6project',
       liveLink: 'https://easter-is-coming-catch-eggs.netlify.app/'
     },
     {
-      name: 'Second Project',
+      name: 'API fetch React app',
       image: CooperHuwitt,
       tags: '#RestAPI',
       githubLink: 'https://github.com/Olygen/cooper-hewitt',
       liveLink: 'https://find-posters-from-cooper-hewitt.netlify.app/'
     },
     {
-      name: 'Exercise',
+      name: 'React Express app',
       image: pokemon,
       tags: '#ReactJS',
       githubLink: 'https://github.com/Olygen/pokemon_app',
       liveLink: 'https://guess-pokemon-name.onrender.com/'
     },
     {
-      name: 'Exercise',
+      name: 'React Express MongoDB app',
       image: mongooseFlights,
       tags: '#MondoDBS',
       githubLink: 'https://github.com/Olygen/mongoose-flights',
       liveLink: 'https://mongoose-flights-d7xo.onrender.com'
+    },
+    {
+      name: 'React Express MongoDB FullMern app',
+      image: employees,
+      tags: '#MondoDBS',
+      githubLink: 'https://github.com/Olygen/mern-employee-list',
+      liveLink: 'https://empy-dempy-the-hr-helper.onrender.com'
     }
   ];
 
