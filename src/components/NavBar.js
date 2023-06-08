@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from './images/Logo.png';
+import Logo from './images/Logo1.png';
 import './NavBar.css';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <img src={Logo} className="image" alt="Logo" style={{ width: '60px', height: 'auto' }} />
+      <img src={Logo} className="image1" alt="Logo" style={{ width: '60px', height: 'auto' }} />
       <ul className="links-container">
         <li className={`links-item ${activeLink === 'home' ? 'active' : ''}`}>
           <a href="#home" className="link" onClick={() => handleLinkClick('home')}>home</a>
